@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup Label="Target">
         <PlatformTarget>x64</PlatformTarget>
-        <TargetFramework>net6.0-windows</TargetFramework>
+        <TargetFramework>net7.0-windows</TargetFramework>
         <LangVersion>8.0</LangVersion>
         <Platforms>x64</Platforms>
         <Configurations>Debug;Release</Configurations>
@@ -22,7 +22,7 @@
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-		<DalamudLibPath>E:\GitHubDesktop\Dalamud 7.3.5.0\bin\Release\</DalamudLibPath>
+		<DalamudLibPath>E:\GitHubDesktop\dohwacorp\Dalamud\bin\Release\</DalamudLibPath>
 	</PropertyGroup>
     <ItemGroup>
         <Reference Include="Dalamud">
